@@ -1,7 +1,7 @@
 import { CircularProgress, Stack } from '@mui/material'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { lazy, Suspense } from 'react'
-import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { AppLayout } from './components/AppLayout'
 import { BoardScreen } from './screens/Board/BoardScreen'
 import { AppThemeProvider } from './theme/AppThemeProvider'
@@ -25,7 +25,7 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <AppThemeProvider>
-        <HashRouter>
+        <BrowserRouter>
           <Routes>
             <Route element={<AppLayout />}>
               <Route path="/" element={<Navigate to="/board" replace />} />
@@ -46,7 +46,7 @@ function App() {
               />
             </Route>
           </Routes>
-        </HashRouter>
+        </BrowserRouter>
       </AppThemeProvider>
     </QueryClientProvider>
   )
