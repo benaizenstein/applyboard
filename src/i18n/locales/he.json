@@ -1,0 +1,68 @@
+{
+  "app": {
+    "title": "ApplyBoard",
+    "nav": {
+      "board": "לוח משרות",
+      "insights": "תובנות"
+    },
+    "languageToggle": "English"
+  },
+  "stages": {
+    "saved": "שמורות",
+    "applied": "הוגשו",
+    "interview": "ראיונות",
+    "offer": "הצעות",
+    "rejected": "נדחו"
+  },
+  "board": {
+    "addFromPosting": "הוספה ממודעה",
+    "empty": "אין מועמדויות בשלב הזה",
+    "loading": "טוען את הפייפליין..."
+  },
+  "form": {
+    "fields": {
+      "company": "חברה",
+      "role": "תפקיד",
+      "location": "מיקום",
+      "stage": "שלב",
+      "stack": "טכנולוגיות",
+      "salaryRange": "טווח שכר",
+      "notes": "הערות"
+    },
+    "errors": {
+      "required": "שדה חובה",
+      "notesTooLong": "ההערות מוגבלות ל-500 תווים"
+    }
+  },
+  "extraction": {
+    "dialogTitle": "הוספת מועמדות ממודעת משרה",
+    "pasteLabel": "הדביקו את טקסט המודעה",
+    "pastePlaceholder": "אנחנו מחפשים Senior Frontend Engineer ל...",
+    "extract": "חילוץ עם AI",
+    "manual": "מילוי ידני",
+    "reviewTitle": "בדקו את הפרטים שחולצו",
+    "analyzing": "קורא את המודעה...",
+    "done": "החילוץ הסתיים — בדקו וערכו לפני ההוספה",
+    "add": "הוספת מועמדות",
+    "back": "חזרה",
+    "cancel": "ביטול"
+  },
+  "details": {
+    "title": "פרטי מועמדות",
+    "save": "שמירת שינויים",
+    "delete": "מחיקה",
+    "cancel": "סגירה"
+  },
+  "insights": {
+    "stats": {
+      "total": "סך המועמדויות",
+      "active": "פעילות",
+      "offers": "הצעות",
+      "rejected": "נדחו"
+    },
+    "funnelTitle": "משפך הפייפליין",
+    "overTimeTitle": "מועמדויות לאורך זמן",
+    "stackTitle": "הטכנולוגיות המבוקשות ביותר",
+    "empty": "הוסיפו כמה מועמדויות כדי לראות תובנות"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "app": {
+    "title": "ApplyBoard",
+    "nav": {
+      "board": "Board",
+      "insights": "Insights"
+    },
+    "languageToggle": "עברית"
+  },
+  "stages": {
+    "saved": "Saved",
+    "applied": "Applied",
+    "interview": "Interview",
+    "offer": "Offer",
+    "rejected": "Rejected"
+  },
+  "board": {
+    "addFromPosting": "Add from posting",
+    "empty": "No applications in this stage",
+    "loading": "Loading your pipeline..."
+  },
+  "form": {
+    "fields": {
+      "company": "Company",
+      "role": "Role",
+      "location": "Location",
+      "stage": "Stage",
+      "stack": "Tech stack",
+      "salaryRange": "Salary range",
+      "notes": "Notes"
+    },
+    "errors": {
+      "required": "This field is required",
+      "notesTooLong": "Notes are limited to 500 characters"
+    }
+  },
+  "extraction": {
+    "dialogTitle": "Add application from a job posting",
+    "pasteLabel": "Paste the job posting text",
+    "pastePlaceholder": "We are looking for a Senior Frontend Engineer at...",
+    "extract": "Extract with AI",
+    "manual": "Fill manually",
+    "reviewTitle": "Review the extracted details",
+    "analyzing": "Reading the posting...",
+    "done": "Extraction complete — review and edit before adding",
+    "add": "Add application",
+    "back": "Back",
+    "cancel": "Cancel"
+  },
+  "details": {
+    "title": "Application details",
+    "save": "Save changes",
+    "delete": "Delete",
+    "cancel": "Close"
+  },
+  "insights": {
+    "stats": {
+      "total": "Total applications",
+      "active": "Active",
+      "offers": "Offers",
+      "rejected": "Rejected"
+    },
+    "funnelTitle": "Pipeline funnel",
+    "overTimeTitle": "Applications over time",
+    "stackTitle": "Most requested technologies",
+    "empty": "Add a few applications to see insights"
+  }
+}
