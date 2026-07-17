@@ -1,5 +1,7 @@
 # ApplyBoard
 
+**Live demo:** https://applyboard-ben-aizensteins-projects.vercel.app
+
 A job-application tracker with an AI-style intake flow: paste a job posting, watch the fields get extracted one by one into a validated form, then manage the application on a drag-and-drop pipeline board with an insights dashboard on top. Fully bilingual — the English/Hebrew toggle flips the entire UI to RTL.
 
 Everything runs in the browser. There is no backend: the REST API is served by Mock Service Worker and persisted to localStorage, and the extraction "AI" is a demo provider behind a real streaming interface.
@@ -56,3 +58,5 @@ npm run build   # typecheck + production build
 ```
 
 The app seeds itself with demo data on first load; state persists in localStorage.
+
+Deployed on Vercel — every push to `main` ships automatically after CI (lint, tests, build) runs on GitHub Actions.
