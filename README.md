@@ -6,6 +6,8 @@ A job-application tracker with an AI-style intake flow: paste a job posting, wat
 
 Everything runs in the browser. There is no backend: the REST API is served by Mock Service Worker and persisted to localStorage, and the extraction "AI" is a demo provider behind a real streaming interface.
 
+This is the server-state sibling of [Retroloop](https://github.com/benaizenstein/retroloop), which is client-state centric (Zustand + a hand-rolled undo/redo). The two projects deliberately demonstrate opposite state architectures at the same scale.
+
 ## Features
 
 - **Pipeline board** — five stages (Saved → Applied → Interview → Offer / Rejected), cards dragged between columns with dnd-kit, stage moves applied as optimistic updates with rollback on failure.
